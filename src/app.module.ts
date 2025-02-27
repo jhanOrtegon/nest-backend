@@ -3,7 +3,8 @@ import { CarsModule } from './cars/cars.module';
 
 @Module({
   imports: [CarsModule],
-  providers: [],
   controllers: [],
+  providers: [],
+  exports: [],
 })
 export class AppModule {}
